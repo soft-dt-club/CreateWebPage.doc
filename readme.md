@@ -15,14 +15,13 @@
 　※便利な拡張機能がたくさんあるので、お好みでインストールしてみてください。
 　どこかのタイミングで、おすすめの拡張機能を共有できるといいですね。
 
-### Anaconda
-Pythonの実行環境+便利なライブラリ集です。
+### Python
+Pythonの実行環境です。
 
-[ダウンロード先](https://www.anaconda.com/products/distribution#Downloads)
-[インストール手順](https://www.useful-python.com/env-anaconda-vscode-windows/)
+[ダウンロード先](https://www.python.org/downloads/release/python-3108/)
+[インストール手順](https://self-development.info/%e3%80%90windows%e3%80%91python-3-10%e3%81%ae%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab/)
 
-　※いろんなライブラリがまとまってインストールされます。
-　容量圧迫したくない場合は、最小構成の「Miniconda」を導入することをおすすめします。
+　※バージョンはとりあえず3.10を入れてみましょう
 
 ### Git
 資産管理ツールです。
@@ -38,10 +37,15 @@ Pythonの実行環境+便利なライブラリ集です。
 ### GitHub
 チーム内の資産共有に利用します。
 各自でアカウントを作成し、VSCodeで連携できるように準備しておいてください。
+アカウント作成が出来たら、寺尾の方でOrganizationに招待します。
 
 Webページ作成で利用するリポジトリは以下になります。
-
-
+・CreateWebPage.doc
+　　設計書や議事録を管理するリポジトリ
+・CreateWebPage.app
+　　Webページのフロントエンドのソースを管理するリポジトリ
+・CreateWebPage.webapp
+　　Webページのバックエンドのソースを管理するリポジトリ
 
 [アカウント作成手順](https://jiyuta.com/github-account/)
 [VSCode連携方法](https://miya-system-works.com/blog/detail/vscode-github/)
