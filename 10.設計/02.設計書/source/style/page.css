@@ -1,0 +1,44 @@
+.tool_name {
+  font-size: 1.2em;
+  padding-left: .5em;
+}
+
+.tool_direction {
+  flex: 1;
+  word-wrap: break-word;
+  min-width: 0;
+}
+
+.box {
+  position: relative;
+  margin: 2em 0;
+  padding: 0.5em 1em;
+  border: solid 3px var(--main-color);
+  border-radius: 4px;
+}
+
+.box .box-title {
+  position: absolute;
+  display: inline-block;
+  top: -13px;
+  left: 10px;
+  padding: 0 9px;
+  line-height: 1;
+  font-size: 19px;
+  background: #FFF;
+  color: var(--main-color);
+  font-weight: bold;
+}
+
+
+.task-list-item {
+  list-style-type: none;
+}
+
+.task-list-item-checkbox {
+  margin-left: -20px;
+  vertical-align: middle;
+  accent-color: #016d01;
+  width: 15px;
+  height: 15px;
+}
