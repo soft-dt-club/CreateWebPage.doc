@@ -49,14 +49,18 @@ a:visited {
 
 table {
   border-collapse: collapse;
-  width: 65%;
+  width: 100%;
 }
 
 tr,
 th,
 td {
   padding: .3em;
-  width: calc(100%/3);
+  width: 5em;
+}
+
+th:last-of-type,td:last-of-type {
+  width: calc(100%/2);
 }
 
 thead {
